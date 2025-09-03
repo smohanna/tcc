@@ -4,7 +4,6 @@ from sklearn import tree
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
-# Dados de exemplo (substitua isso pelos seus próprios dados)
 # Exemplo: Classificação binária (0 ou 1)
 data = pd.read_csv('mismagenedwaste.csv')
 features = [[0, 0], [1, 1], [1, 0], [0, 1]]
